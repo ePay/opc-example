@@ -217,7 +217,7 @@
 
 				if(paymentwindow.canUseEvents)
 				{
-					paymentwindow.options['cssurl'] = "http://sandbox.yourpaymentsystem.net/example-temp/style.css";
+					paymentwindow.options['cssurl'] = "https://raw.github.com/ePay/opc-example/master/css/style.css";
 					paymentwindow.on('completed', function(params) { 
 						$("#checkout").hide();
 						$("#accept").show();
